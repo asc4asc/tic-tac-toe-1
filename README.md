@@ -7,7 +7,7 @@ To play the game locally:
 
 - This assumes Node and NPM is installed locally on computer
 - Download the tic-tac-toe folder, navigate to tic-tac-toe folder in terminal, and npm install & npm start Server/server.js
-- Visit http://localhost:3000/ to play tic-tac-toe locally
+- Visit http://localhost:8080/ to play tic-tac-toe locally
 
 
 # Tic-Tac-Toe API
