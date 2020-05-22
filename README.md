@@ -16,7 +16,7 @@ Players can also interact with the game by making API post requests to the serve
 To get started:
 
 - Download the files, navigate to tic-tac-toe folder in terminal, and npm install & start the server
-- Play against the computer by sending post requests to http://localhost:3000/api
+- Play against the computer by sending post requests to http://localhost:8080/api
 
 #### API Board Format
 
@@ -43,4 +43,4 @@ The server will respond with a board that includes the computers move:
 - Example Post Request: {'board': '["X","","","","","","","",""]'}
 - Subsequent Response: {'board': '["X","","","","O","","","",""]'}
 
-Additionally, a post request can be made to http://localhost:3000/api/move using the same format and the server will respond with the optimal next move to make (respresented as the index position in the board array).
+Additionally, a post request can be made to http://localhost:8080/api/move using the same format and the server will respond with the optimal next move to make (respresented as the index position in the board array).
