@@ -36,7 +36,7 @@ To get started:
 - The game is designed so the computer never loses a game and will always make the most optimal move.
 
 #### API Post Request
-To play a game, send a post request to  http://localhost:3000/api with 'board' as the key and the array as the value.
+To play a game, send a post request to  http://localhost:8080/api with 'board' as the key and the array as the value.
 - Example: {'board': '["","","","","","","","",""]'}
 
 The server will respond with a board that includes the computers move:
